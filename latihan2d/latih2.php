@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="../style.css">  <!-- Menghubungkan HTML dengan file CSS -->
+
+</head>
+<body>
+    <!-- ====================Container utama ====================-->
+    <div class="container">
+        <h1>CURRICULUM VITAE (CV)</h1>
+        <hr>
+
+        <!-- =================FOTO DAN IDENTITAS DIRI =============-->
+        <table class="identitas">
+            <tr>
+                <td class="kolom-foto">
+                    <img src="../image/foto.jpg" alt="Foto Profil" class="foto-profil">
+                </td>   
+                
+                <td class="kolom-identitas">
+                    <h2>Identitas Diri</h2>
+                    <table class="data-identitas">
+                        <tr>
+                            <td><strong>Nama Lengkap</strong></td>                      
+                            <td>:</td>
+                            <td>Maria Eryestin Nahak</td>
+                        </tr>
+                        <tr>
+                            <td><strong>NIM</strong></td>
+                            <td>:</td>
+                            <td>202600001</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Program Studi</strong></td>
+                            <td>:</td>
+                            <td>Teknologi Informasi</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tempat, Tanggal Lahir</strong></td>
+                            <td>:</td>
+                            <td>Kefamenanu, 10 Januari 2007</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Alamat</strong></td>
+                            <td>:</td>  
+                            <td>Kefamenanu, Timor Tengah Utara,Nusa Tenggara Timur</td>
+                        </tr>
+                        <tr>
+                            <td><strong>No. HP</strong></td>
+                            <td>:</td>  
+                            <td>08xxxxxxxxxx</td>
+                        </tr>
+                   </table>
+                </td>
+            </tr>
+        </table>
+        <hr>
+
+
+        <!-- ======================PROFIL SINGKAT========================================= -->
+        <h2>Profil Singkat</h2>
+        <p>Saya adalah mahasiswa Program Studi <strong>Teknologi Informasi Universitas Timor</strong>.Saya memiliki ketertarikan terhadap perkembangan teknologi,khususnya dalam bidang <mark>  Web Development </mark>. Saya memiliki motivasi untuk terus belajar dan mengembangkan kemampuan dalam bidang teknologi informasi agar dapat memberikan manfaat bagi masyarakat.</p>
+
+    <div class="grid-informasi">
+        <!-- =========RIWAYAT PENDIDIKAN=========================== -->
+        <div class="card">
+        <h2>Riwayat Pendidikan</h2>
+        <ol>
+            <li>SD Katolik Fafoe</li>
+            <li>SMPK St. Isidorus Besikama</li>
+            <li>SMA Negeri 1 Malaka Barat</li>
+            <li>S1 di Universitas Timor</li>
+            <li>S2 di Universitas Gadjah Mada</li>
+        </ol>
+        </div>
+        <!-- =================================HOBI ==================================-->
+       <div class="card">
+        <h2>Hobi</h2>
+        <ul>
+            <li>Membaca</li>
+            <li>Olahraga</li>
+            <li>Mendengarkan Musik</li>
+            <li>Belajar Teknologi</li>
+        </ul>
+        </div>
+        <!-- ===========================BIDANG MINAT================================= -->
+        <div class="card">
+        <h2>Bidang Minat</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>Artificial Intelligent</li>
+            <li>Data Analisis</li>
+        </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <p>Bidang yang paling saya minati adalah <strong> <u>Web Development</u> </strong> karena saya ingin mampu membuat website yang menarik, informatif, dan bermanfaat.</p>
+    <hr>
+
+
+        <!-- ==============================MATA KULIAH SEMESTER INI ======================-->
+        <h2>Mata Kuliah Semester Ini</h2>
+        <table class="tabel-matakuliah">
+            <tr>
+                <th>No.</th>
+                <th>Kode MK</th>
+                <th>Nama Mata Kuliah</th>
+                <th>SKS</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>TI201</td>
+                <td>Pemrograman Web Dasar</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>TI202</td>
+                <td>Basis Data</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>TI203</td>
+                <td>Organisasi dan Arsitektur Komputer</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <hr>
+ 
+        <!-- ===============================TARGET DAN CITA-CITA ================-->
+        <h2>Target dan Cita-Cita</h2>
+        <p>Target saya selama menempuh pendidikan di Program Studi Teknologi Informasi adalah meningkatkan kemampuan dalam <em>Pemrograman dan Pengembangan Teknologi</em>Saya berharap dapat menjadi seorang <strong>Web Developer</strong> yang mampu menghasilkan aplikasi web yang bermanfaat bagi masyarakat.</p>
+
+        <!-- ===============================Link social media =======================-->
+        <p> Kunjungi sosial media saya di 
+            <a href="https://unimor.ac.id" target="_blank"> Universitas Timor</a>
+        </p>
+        <hr>
+
+
+
+
+
+        <!-- ===========================FORM KONTAK============================== -->
+        <!-- ===========================MATERI BARU PERTEMUAN INI -===============-->
+<h2>Form Kontak</h2>
+<p> Silakan mengisi form berikut jika ingin menghubungi saya.
+</p>
+<form id="formkontak">
+
+  <!-- ================= INPUT NAMA ================= -->
+    <div class="form-group">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+    </div>
+
+    <!-- ================= INPUT EMAIL ================= -->
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email"  required>
+    </div>
+
+    <!-- ================= INPUT NO. TELEPON ============= -->
+    <div class="form-group">
+        <label for="telepon">No. Telepon </label>
+        <input  type="tel" id="telepon" name="telepon" placeholder="Masukkan no. telepon Anda" required>
+    </div>
+
+    <!-- ================= PILIHAN BIDANG MINAT ================= -->
+    <div class="form-group">
+        <label for="minat">Bidang Minat</label>
+        <select id="minat" name="minat" required>
+            <option value=""> -- Pilih Bidang Minat --</option>
+            <option value="Web Development"> Web Development</option>
+            <option value="UI/UX Design">   UI/UX Design </option>
+            <option value="Artificial Intelligence"> Artificial Intelligence</option>
+            <option value="Data Analisis"> Data Analisis</option>
+        </select>
+    </div>
+
+    <!-- ================= TEXTAREA PESAN ================= -->
+    <div class="form-group">
+        <label for="pesan"> Pesan </label>
+        <textarea id="pesan"  name="pesan" rows="5" placeholder="Tuliskan pesan Anda"   required></textarea>
+    </div>
+
+    <!-- ================= TOMBOL ================= -->
+    <button type="submit">  Kirim Pesan ke WhatsApp</button>
+    <button type="reset"> Reset</button>
+</form>    
+
+        <!-- =============================Footer=========== -->
+        <p class="footer">CV ini dibuat sebagai latihan Mata Kuliah Pemrograman Web Dasar.</p>
+        <p class="footer">Made with Love by YESTIN NAHAK</p>                              
+    </div>
+  
+    <script src="../script.js"></script>
+   
+</body>
+</html>
