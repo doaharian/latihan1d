@@ -4,7 +4,7 @@ form.addEventListener("submit", function (event) {
     // Mencegah form berpindah ke halaman lain
     event.preventDefault();
     // =====NOMOR WHATSAPP TUJUAN=========================
-    const nomorWhatsApp = "6281339762197";
+    const nomorWhatsApp = "6281239760542";
     // ==============MENGAMBIL DATA DARI FORM=============/
     const nama =
         document.getElementById("nama").value;
